@@ -1,42 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
+    <title>Carlos Gonzalez L. - Blog Personal</title>
+    <style>
+        body {
+    
+ 
+            font-family: Arial, sans-serif;
+            margin: 0,5;
+            padding: 0,5;
+            background-color: #fff2cc;
+        }
+
+        header {
+            background-color:#11009E;
+            color:  #0e0d0d;
+            padding: 20em;
+            text-align: center;
+        }
+
+    header {
+        background-color:#fff2cc;
+        color: #0e0d0d;
+        padding: 8em;
+        text-align: center;
+        position:relative; /* Añadido para facilitar el posicionamiento de la imagen */
+    }
+
+    header img {
+        max-width: 50%;
+        height: auto;
+        border-radius: 10%;
+        /* Cambios para ajustar el tamaño de la imagen */
+        width: 200px; /* Cambia este valor según tus preferencias */
+        height: 200px; /* Cambia este valor según tus preferencias */
+        position: absolute; /* Añadido para permitir ajuste de posición */
+        top: 30; /* Ajusta según necesites */
+        left: 25%; /* Ajusta según necesites */
+        transform: translate(-100%, -30%); /* Centra la imagen */
+}
+
+        nav {
+            background-color: #11009E
+            color #82cd47;
+            padding: 0,5em;
+            text-align: absolute;
+        }
+
+        nav a {
+            background-color: #FFF2CC
+            color   #82cd47;
+            margin: 5em;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2em;
+            background-color: #82cd47;
+            margin: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #FAE7F3;
+            color: #0e0d0d;
+            padding: 1em;
+            text-align: absolute;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
+
 <body>
 
     <header>
-        <h1>Bienvenido a Mi Página Web</h1>
+        <img src="https://images.unsplash.com/photo-1527784281695-866fa715d9d8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de cabecera">
+        <h1>Carlos Gonzalez L. - Blog Personal</h1>
     </header>
 
     <nav>
-        <ul>
-            <li><a href="#seccion1">Sección 1</a></li>
-            <li><a href="#seccion2">Sección 2</a></li>
-            <li><a href="#seccion3">Sección 3</a></li>
-        </ul>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
     </nav>
 
-    <section id="seccion1">
-        <h2>Sección 1</h2>
-        <p>Contenido de la sección 1.</p>
+    <section id="inicio">
+        <h2>Bienvenido/a a mi Blog Personal</h2>
+        <p>Hola, soy Carlos Gonzalez L., técnico en marketing digital para la moda de Sabanalarga, Atlántico. Este es mi rincón en la web donde comparto mis experiencias y conocimientos sobre marketing digital, moda, fútbol y tecnología.</p>
+        <p>¡Explora y disfruta de las historias y reflexiones que comparto! ¿Quieres ser parte de la conversación? Deja tu comentario y únete a esta comunidad apasionada.</p>
     </section>
 
-    <section id="seccion2">
-        <h2>Sección 2</h2>
-        <p>Contenido de la sección 2.</p>
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Me apasiona la fusión entre el mundo del marketing digital y la moda. Originario de Sabanalarga, Atlántico, he encontrado en este blog una plataforma para compartir mi experiencia y conocimientos. Acompáñame en este viaje lleno de estilo y creatividad.</p>
     </section>
 
-    <section id="seccion3">
-        <h2>Sección 3</h2>
-        <p>Contenido de la sección 3.</p>
+    <section id="blog">
+        <h2>Últimas Entradas</h2>
+        <article>
+            <h3>Explorando las Tendencias de Moda del Año</h3>
+            <p>En esta entrada, analizo las tendencias más destacadas de la moda de este año y cómo se integran con las estrategias de marketing digital.</p>
+        </article>
+        <article>
+            <h3>El Impacto de la Tecnología en la Industria de la Moda</h3>
+            <p>Descubre cómo la tecnología está transformando la industria de la moda y creando nuevas oportunidades para los profesionales del marketing digital.</p>
+        </article>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Hablemos! Si tienes preguntas, sugerencias o simplemente quieres decir hola, no dudes en contactarme. Estoy aquí para conectar contigo.</p>
+        <p>Email: carlos@example.com</p>
+        <p>Redes Sociales: <a href="#" target="_blank">LinkedIn</a>, <a href="#" target="_blank">Twitter</a></p>
     </section>
 
     <footer>
-        <p>© 2024 Mi Página Web. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Carlos Gonzalez L. - Blog Personal</p>
     </footer>
 
 </body>
+
 </html>
+
